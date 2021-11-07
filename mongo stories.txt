@@ -1,0 +1,5 @@
+1. It is derived by the concept of Nosql.
+2. Written by c++.
+3. It is working on the concept of Collections and Documents.
+4. Datas are stored as key,value pairs.
+5. developed by 10gen company.
