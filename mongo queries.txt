@@ -1,0 +1,3 @@
+db.help() --> for getting mongo commends.
+db.stats() --> for getting statistics of the current database.
+db.getName() --> for getting current database name.

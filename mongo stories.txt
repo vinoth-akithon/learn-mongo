@@ -1,5 +1,16 @@
-1. It is derived by the concept of Nosql.
-2. Written by c++.
-3. It is working on the concept of Collections and Documents.
-4. Datas are stored as key,value pairs.
-5. developed by 10gen company.
+Official website --> https://www.mongodb.com
+It is derived by the concept of Nosql.
+Written by c++.
+It is working on the concept of Collections and Documents.
+collections --> Tables in RDMS.
+Documents --> rows in RDMS.
+Datas are stored as key,value pairs.
+Developed by 10gen company.
+MongoDb collections do not enforce schemas, the documents are collections of key-value pairs with dynamic schemas.
+It is Document Oriented Storage.datas are stored in the form of JSON.
+_id --> 12 byte hexadecimal id(It is unique for every documents).
+    1. first 4 - current timestamp.
+    2. next 3 - machine id.
+    3. next 2 - MongoDb server process id.
+    4. final 3 - simple incremental value.
+We can provide _id while inserting doc otherwise mongodb generate by its own.
