@@ -1,0 +1,11 @@
+mongodump --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<database name>"
+ --> exporting database as bson
+mongodump --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<database name>" --collection <collection name>
+ --> exporting only a specfied collection as bson.
+mongoexport --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<databse name>" --collection=<collection name> --out=<file name>.json
+ --> exporting a specified collection as json
+
+mongorestore --uri "mongodb+srv://<your name>:<password>@<cluster name>.mongodb.net/<database name>"
+ --> importing database form dumpted bson
+mongoimport --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<databse name>" --collection=<collection name> --drop=<file name>.json
+ --> importing a specified collection as json
