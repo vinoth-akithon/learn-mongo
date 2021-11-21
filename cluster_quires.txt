@@ -1,6 +1,9 @@
+mongo "mongodb+srv:<username>:<password>@<cluster name>"
+ --> for connecting romate mongodb
+
 mongodump --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<database name>"
  --> exporting database as bson
-mongodump --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<database name>" --collection <collection name>
+mongodump --uri "mongodb+srv://<your username>s:<your password>@<your cluster>.mongodb.net/<database name>" --collection <collection name>
  --> exporting only a specfied collection as bson.
 mongoexport --uri "mongodb+srv://<your username>:<your password>@<your cluster>.mongodb.net/<databse name>" --collection=<collection name> --out=<file name>.json
  --> exporting a specified collection as json

@@ -1,3 +1,13 @@
 db.help() --> for getting mongo commends.
 db.stats() --> for getting statistics of the current database.
 db.getName() --> for getting current database name.
+db --> for getting current database name.
+show dbs --> for listing all the databases.
+use <database name> --> for switching database or create a new database.
+db.dropDatabase()  --> for deleting the current database.
+show collections  --> for listing all the collection that current database has.
+db.getCollectionNAmes() --> for listing all the collection that current database has.
+db.<collection name>.find({<comma separeted key-value pairs>}) --> for showing the query matched docs.
+db.<collection name>.find({<query>}).pretty() --> for showing the query matched docs in pretty format.
+db.<collection>.find({<query>}).count() --> for returning the count of query matched docs.
+it --> for iterate the curser.

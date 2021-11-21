@@ -14,3 +14,7 @@ _id --> 12 byte hexadecimal id(It is unique for every documents).
     3. next 2 - MongoDb server process id.
     4. final 3 - simple incremental value.
 We can provide _id while inserting doc otherwise mongodb generate by its own.
+Mongo shell is a fully fuctionality javascript interpreter.
+mongo shell automatically returns an unordered list of results.
+The maximum BSON document size is 16 megabytes.
+The fields in a BSON document are ordered but JSON not.
